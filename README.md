@@ -42,6 +42,10 @@ I am having two pages, the first page is as the welcome page and second one is t
 
 my data woudld be generated from an API, the first page having all design and buttons to explore the app, with serach bar to look up a workout that suit you what will be generated in second page with all details that you need.
 
+if we decide what we want to look for we press the button search with the key word on the search bar that would generate all the exercises and workout that relate to the key word.
+
+and if we do not have an idea on what we working on we can press on image of the muscle or workout we can have all details of the exercises that approve that specific muscle or details of the workout.
+
 ### Endpoints
 
 I will try to make it responsive, if i have some time
@@ -64,6 +68,9 @@ I will try to make it authentic, if i have some time
 
 - Add Form
   Implement forms for user input.
+
+- add button and links
+  all pictures are likend to a workout that been mentioned on bottom of the pictures.
 
 ## Nice-to-haves
 
