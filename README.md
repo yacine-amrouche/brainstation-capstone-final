@@ -12,7 +12,7 @@ Many fitness apps offer one-size-fits-all solutions, leaving users feeling unins
 
 ### User Profile
 
-FitCraft's innovative approach starts by engaging users in a personalized onboarding process. Through a series of questions about fitness objectives, preferred exercise types, and availability, FitCraft gathers the necessary information to curate a workout plan that suits your lifestyle.
+fitcraft is an application for personal trainers, created to inspire and to help achieve your clients their fitness goal and set up a specific workout exercises.
 
 ### Features
 
@@ -22,12 +22,11 @@ List the functionality that your app will include. These can be written as user 
 
 ### Tech Stack
 
-- Frontend: React / chakra ui
-- Backend: open API / DB: firebase or mongoDB (to be determined)
+react - react-router - axios - react - chakra ui
 
 ### APIs
 
-i am using an open API
+Rapid API, ExerciseDB API Documentation, youtube search and download documentation
 
 ### Sitemap
 
@@ -35,7 +34,9 @@ I am having two pages, the first page is as the welcome page and second one is t
 
 ### Mockups
 
-<img src='./asset/App design.png'><img/>
+<img src='./asset/1.png'><img/>
+<img src='./asset/2.png'><img/>
+<img src='./asset/3.png'><img/>
 
 ### Data
 
@@ -51,11 +52,22 @@ I will try to make it authentic, if i have some time
 
 ## Roadmap
 
-my first sprint is to create first and second page on react.
-my second sprint is to connect the two pages to the API.
-my third sprint is make a styling as i did on figma.
+- Implement Basic Components
+  Build the basic structure my React components.
+  Create a navigation bar, header, and footer.
+  Set up routing for different views if your application is multi-page.
+  Integrate API:
+
+- Set up API endpoints and get API
+  Implement logic to fetch data from the API using tools like fetch or Axios.
+  Use the data from the API to dynamically render components.
+
+- Add Form
+  Implement forms for user input.
 
 ## Nice-to-haves
 
 I would like to make my application responsive.
 I would like to have an extrat page for making some questions to know specificly what the client target.
+
+FitCraft's innovative approach starts by engaging users in a personalized onboarding process. Through a series of questions about fitness objectives, preferred exercise types, and availability, FitCraft gathers the necessary information to curate a workout plan that suits your lifestyle.
