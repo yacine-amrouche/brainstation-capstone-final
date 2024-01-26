@@ -35,9 +35,15 @@ I am having two pages, the first page is as the welcome page and second one is t
 ### Mockups
 
 <img src='./asset/images/1-1.png'><img/>
+
+<p>- the first page once you open the application</p>
 <img src='./asset/images/2-1.png'><img/>
+<p>- once you open the application it re-directs you to the main page where you search your workout</p>
 <img src='./asset/images/3-1.png'><img/>
+<p>- once you enter your key word on search bar you will have all the options</p>
+- once you press any of the pictures it will link you the exercises page
 <img src='./asset/images/4.png'><img/>
+<p>- in this page you have all the exercises under the category that client selected</p>
 
 ### Data
 
