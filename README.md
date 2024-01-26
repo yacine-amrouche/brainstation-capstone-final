@@ -34,9 +34,10 @@ I am having two pages, the first page is as the welcome page and second one is t
 
 ### Mockups
 
-<img src='./asset/1.png'><img/>
-<img src='./asset/2.png'><img/>
-<img src='./asset/3.png'><img/>
+<img src='./asset/images/1-1.png'><img/>
+<img src='./asset/images/2-1.png'><img/>
+<img src='./asset/images/3-1.png'><img/>
+<img src='./asset/images/4.png'><img/>
 
 ### Data
 
@@ -71,6 +72,8 @@ I will try to make it authentic, if i have some time
 
 - add button and links
   all pictures are likend to a workout that been mentioned on bottom of the pictures.
+  implementing a link to pictures to navigate in other page once we click on.
+  using a buttons to trugger a workout related to the client needs.
 
 ## Nice-to-haves
 
