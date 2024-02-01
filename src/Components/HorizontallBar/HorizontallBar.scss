@@ -1,0 +1,21 @@
+.horizontall {
+  margin-top: -1rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.muscle__name {
+  color: white;
+  font-size: 40px;
+  margin: 0;
+  padding-left: 3rem;
+}
+.dumbell__img {
+  width: 170px;
+}
+.mainbar {
+  display: flex;
+}
+.arrow {
+  background-color: black;
+}

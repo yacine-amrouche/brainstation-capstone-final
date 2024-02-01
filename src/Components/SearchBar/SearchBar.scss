@@ -2,7 +2,6 @@
   background-color: black;
   margin-top: -0.5rem;
   display: flex;
-  margin-bottom: 1rem;
 }
 .search__header {
   color: gray;
@@ -15,11 +14,11 @@
   padding-bottom: 2rem;
 }
 .search__input {
-  width: 75%;
+  width: 55%;
   border-radius: 15px;
   padding-top: 1rem;
   padding-left: 2rem;
-  margin-left: 1rem;
+  margin-left: 9rem;
   border: white 4px solid;
   background-color: black;
   color: white;
@@ -30,7 +29,7 @@
   font-size: 18px;
 }
 .search__btn {
-  width: 18%;
+  width: 15%;
   height: 55px;
   border-radius: 20px;
   margin-left: 0.5rem;

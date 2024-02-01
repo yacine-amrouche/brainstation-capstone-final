@@ -2,6 +2,7 @@ import "./SearchBar.scss";
 import React from "react";
 import { useEffect, useState } from "react";
 import IconMenu from "../IconMenu/IconMenu";
+import HorizontallBar from "../HorizontallBar/HorizontallBar";
 
 function SearchBar({ setExercises, bodyPart, setBodyPart }) {
   const [search, setSearch] = useState("");
@@ -9,7 +10,7 @@ function SearchBar({ setExercises, bodyPart, setBodyPart }) {
   useEffect(() => {
     const fetchExercisesData = async () => {
       const bodyPartsData = await fetchData(
-        "https://exercisedb.p.rapidapi.com/exercises",
+        `https://exercisedb.p.rapidapi.com/exercises/${search}`,
         exerciseOptions
       );
 
@@ -21,7 +22,7 @@ function SearchBar({ setExercises, bodyPart, setBodyPart }) {
   const handleSearch = async () => {
     if (search) {
       const exercisesData = await fetchData(
-        "https://exercisedb.p.rapidapi.com/exercises",
+        `https://exercisedb.p.rapidapi.com/exercises${search}`,
         exerciseOptions
       );
       console.log(exercisesData);
@@ -70,6 +71,7 @@ function SearchBar({ setExercises, bodyPart, setBodyPart }) {
           SEARCH
         </button>
       </div>
+      <HorizontallBar data={bodyPart} />
       <IconMenu data={bodyPart} />
     </>
   );
