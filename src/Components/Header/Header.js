@@ -1,13 +1,16 @@
 import React from "react";
 import "./Header.scss";
-//import logo from "../../Assests/images/1-1.png";
+import logo from "../../Assests/images/Arrow .png";
 import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <Link to="/">
-      <p>FITCRAFT</p>
-    </Link>
+    <div className="header">
+      <Link className="header__link" to="/">
+        <p className="header__logo">FITCRAFT</p>
+      </Link>
+      <img className="logo" src={logo} alt="logo" />
+    </div>
   );
 }
 export default Header;

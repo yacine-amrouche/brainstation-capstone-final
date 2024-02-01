@@ -1,3 +1,4 @@
+import "./SearchBar.scss";
 import React from "react";
 import { useEffect, useState } from "react";
 import IconMenu from "../IconMenu/IconMenu";
@@ -11,7 +12,8 @@ function SearchBar({ setExercises, bodyPart, setBodyPart }) {
         "https://exercisedb.p.rapidapi.com/exercises",
         exerciseOptions
       );
-      setBodyPart(["all", ...bodyPartsData]);
+
+      setBodyPart([...bodyPartsData]);
     };
     fetchExercisesData();
   }, []);
@@ -44,7 +46,7 @@ function SearchBar({ setExercises, bodyPart, setBodyPart }) {
   const exerciseOptions = {
     method: "GET",
     url: "https://exercisedb.p.rapidapi.com/exercises",
-    params: { limit: "100" },
+    params: { limit: "10" },
     headers: {
       "X-RapidAPI-Key": "07a53eafedmsh3a73a35d496f8d6p12f62fjsn176506fcc3c4",
       "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
@@ -53,10 +55,8 @@ function SearchBar({ setExercises, bodyPart, setBodyPart }) {
   console.log(bodyPart);
   return (
     <>
+      <p className="search__header">Awesome Exercises You Should Know</p>
       <div className="search__bar">
-        <p className="search__header">
-          Awesome Exercises You <br /> Should Know{" "}
-        </p>
         <textarea
           className="search__input"
           value={search}

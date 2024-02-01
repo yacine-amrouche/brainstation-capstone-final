@@ -1,0 +1,27 @@
+.header {
+  background-color: black;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.header__logo {
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 55px;
+  background-color: black;
+  font-weight: 700;
+  font-style: italic;
+  padding-right: 2rem;
+}
+
+.header__link {
+  text-decoration: none;
+}
+.logo {
+  width: 170px;
+  height: 120px;
+}
