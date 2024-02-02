@@ -1,0 +1,23 @@
+.Menu__card {
+  width: 44%;
+  padding-left: 4rem;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.name {
+  padding-left: 8rem;
+  font-size: 30px;
+  font-weight: 600;
+}
+.heading__exercises {
+  margin-left: 2rem;
+}
+.heading__info {
+  margin-left: 2rem;
+}
+.heading__sub {
+  margin-left: 4rem;
+}
