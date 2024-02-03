@@ -5,6 +5,7 @@ import SearchBar from "../../Components/SearchBar/SearchBar";
 import ExercisesPage from "../../Components/ExercisesPage/ExercisesPage";
 import HorizontallBar from "../../Components/HorizontallBar/HorizontallBar";
 import { useState } from "react";
+import Quiz from "../../Components/Quiz/Quiz";
 
 const fetchData = async (url, options) => {
   const res = await fetch(url, options);
@@ -39,9 +40,11 @@ function HomePage() {
   return (
     <>
       <FacePage />
+
       <SearchBar setExercises={setExercises} />
       <HorizontallBar setExercises={setExercises} />
       <ExercisesPage exercises={exercises} />
+      <Quiz />
     </>
   );
 }

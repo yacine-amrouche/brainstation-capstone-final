@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1",
+    "question": "How many time a week you want to workout?",
+    "information": "This Details it will help us to set you workout goals",
+    "answers": ["once", "twice", "three-times"]
+  },
+  {
+    "id": "2",
+    "question": "When was last time you have done some exercises?",
+    "information": "This Details it will help us to set you workout goals",
+    "answers": ["one week", "one month", "over three months"]
+  },
+  {
+    "id": "3",
+    "question": "how old are you?",
+    "information": "",
+    "answers": [
+      "under 18 years old",
+      "between 18 and 28",
+      "betweem 29 and 45",
+      "over 46 years old"
+    ]
+  }
+]

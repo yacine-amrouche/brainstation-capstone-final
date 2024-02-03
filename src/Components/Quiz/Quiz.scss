@@ -1,0 +1,99 @@
+.quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 56vw;
+
+  &__title {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 0.5rem;
+    color: blue;
+  }
+
+  &__question {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 0 0 1.0625rem;
+    font-family: Kapra;
+    color: blueviolet;
+  }
+
+  &__info {
+    width: 50rem;
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 1.75rem;
+  }
+
+  &__button {
+    width: 29.4375rem;
+    color: #384378;
+    background-color: #edeef3;
+    border: none;
+    border-radius: 4px;
+    padding: 0.625rem 1rem;
+    margin: 0.9375rem 1rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:focus {
+      color: white;
+      background-color: #384378;
+    }
+  }
+
+  &__button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 25vw;
+  }
+
+  &__answer-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__next {
+    width: 9.6875rem;
+    color: black;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 4px;
+    margin: 6.125rem 1rem 0.9375rem;
+    padding: 0.625rem 1rem;
+  }
+
+  &__navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+  }
+
+  &__navbar-circle {
+    width: 0.625rem;
+    height: 0.625rem;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.375rem 0.25rem 0;
+
+    &.active {
+      background-color: red;
+    }
+  }
+}
