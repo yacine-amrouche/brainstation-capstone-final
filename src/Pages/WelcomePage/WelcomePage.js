@@ -19,7 +19,7 @@ function WelcomePage() {
           setup, FITCRAFT creates a workouts tailored to you
         </p>
         <button className="welcome__btn" onClick={handleGettingStarted}>
-          Get started
+          GET STARTED
         </button>
       </div>
     </>
