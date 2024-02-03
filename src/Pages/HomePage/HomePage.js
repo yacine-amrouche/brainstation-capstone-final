@@ -31,7 +31,6 @@ function HomePage() {
       <SearchBar setExercises={setExercises} />
       <HorizontallBar setExercises={setExercises} />
       <ExercisesPage exercises={exercises} />
-      <Quiz />
     </>
   );
 }

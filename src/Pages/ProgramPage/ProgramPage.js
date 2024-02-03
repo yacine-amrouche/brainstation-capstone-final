@@ -1,6 +1,7 @@
 import "./ProgramPage.scss";
 import React, { useEffect, useState } from "react";
 import Exercises from "../../Components/Data/Exercises.json";
+import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 
 function WelcomePage() {
@@ -20,6 +21,10 @@ function WelcomePage() {
   }
 
   const days = Object.keys(program);
+  const navigate = useNavigate();
+  const handelGetHome = () => {
+    navigate("/HomePage");
+  };
 
   return (
     <>
@@ -43,6 +48,9 @@ function WelcomePage() {
           ))}
         </div>
       ))}
+      <button onClick={handelGetHome} className="welcome__bnt">
+        Get Exercises Details
+      </button>
     </>
   );
 }

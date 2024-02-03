@@ -16,16 +16,23 @@
   margin: 0;
   padding: 0;
   padding-top: 1rem;
-  color: black;
+  color: white;
+  font-style: italic;
 }
 .heading__exercises {
   margin-left: 2rem;
+  color: white;
+  font-style: italic;
 }
 .heading__info {
   margin-left: 2rem;
+  color: white;
+  font-style: italic;
 }
 .heading__sub {
   margin-left: 4rem;
+  color: white;
+  font-style: italic;
 }
 .btnb {
   font-size: 14px;
@@ -49,8 +56,12 @@
 }
 .menu_img {
   border-top: 4px solid black;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
 }
 .heading__sub li {
   font-size: 18px;
   font-weight: 500;
+  color: white;
+  font-style: italic;
 }
