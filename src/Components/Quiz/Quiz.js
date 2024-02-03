@@ -3,6 +3,8 @@ import { useParams, useNavigate } from "react-router-dom";
 import QuizData from "../../Components/Data/Data.json";
 import "./Quiz.scss";
 
+const numberOfquestions = QuizData.length;
+
 export default function Quiz() {
   const [question, setQuestion] = useState("");
   const [information, setInformation] = useState("");
@@ -50,6 +52,11 @@ export default function Quiz() {
   const navigate = useNavigate();
 
   const handleNext = () => {
+    if (numberOfquestions == quizId) {
+      navigate(`/program/${selectedResult[0]}`);
+      return;
+    }
+
     setAnswer((previousSelections) => [...previousSelections, selected]);
     let nextQuizId = parseInt(quizId) + 1;
     if (nextQuizId <= QuizData.length) {
@@ -72,7 +79,9 @@ export default function Quiz() {
           ></div>
         ))}
       </div>
-      <h2 className="quiz__title">Question:</h2>
+      <h2 className="quiz__title">
+        Can you please answer to the question below
+      </h2>
       <h2 className="quiz__question">{question}</h2>
       <p className="quiz__info">{information}</p>
       <div className="quiz__button-container">

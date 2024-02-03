@@ -1,44 +1,137 @@
 {
   "1": {
-    "chest": [{ "id": "01", "name": "01" }],
-    "shoulder": [{ "id": "01", "name": "01" }],
-    "legs": [{ "id": "01", "name": "01" }],
-    "biceps": [{ "id": "01", "name": "01" }]
+    "day one": {
+      "chest": [
+        {
+          "id": "01",
+          "name": "DECLINE PRESS (3 SETS, 10 REPS) - CHEST DIPS (4 SETS, 8 REPS) - DUBBBEL PULLOVER (3 SETS 15 REPS)"
+        }
+      ],
+      "shoulder": [
+        {
+          "id": "01",
+          "name": "ARNOLD PRESS (4 SETS, 12 REPS) - FRONT RISE (3 SETS, 10 REPS) - SEATED DUMBELL PRESS(3 SETS 15 REPS)"
+        }
+      ],
+      "legs": [
+        {
+          "id": "01",
+          "name": "BAREBELL SQUATS (4 SETS, 12 REPS) - ROMANIAN DEADLIFT (3 SETS, 10 REPS) - JUMP SQUATS(3 SETS 15 REPS)"
+        }
+      ],
+      "biceps": [
+        {
+          "id": "01",
+          "name": "BICEPS CURL (4 SETS, 12 REPS) -  DUMBELL HUMMER (3 SETS, 10 REPS) - CABLE BICEPS CURL(3 SETS 15 REPS)"
+        }
+      ]
+    }
   },
 
   "2": {
-    "day1": {
-      "chest": [{ "id": "02", "name": "02" }],
-      "shoulder": [{ "id": "02", "name": "02" }],
-      "biceps": [{ "id": "01", "name": "01" }]
+    "day one": {
+      "chest": [
+        {
+          "id": "02",
+          "name": "WIDE PUSHUPS (5 SETS, 12 REPS) - MACHINE PRESS (4 SETS, 12 REPS) - INCLINE PRESS (3 SETS 12 REPS)"
+        }
+      ],
+      "shoulder": [
+        {
+          "id": "02",
+          "name": "LATERAL RAISE (4 SETS, 12 REPS) - SEATED BAREBELL PRESS (4 SETS, 8 REPS) - FONT RISE (3 SETS 15 REPS)"
+        }
+      ],
+      "biceps": [
+        {
+          "id": "01",
+          "name": "BICEPS CURL (4 SETS, 12 REPS) -  DUMBELL HUMMER (3 SETS, 10 REPS) - CABLE BICEPS CURL(3 SETS 15 REPS)"
+        }
+      ]
     },
-    "day2": {
-      "id": "2",
-      "legs": [{ "id": "02", "name": "02" }],
-      "triceps": [{ "id": "01", "name": "01" }],
-      "abs": [{ "id": "01", "name": "01" }]
+    "day two": {
+      "legs": [
+        {
+          "id": "02",
+          "name": "BAREBELL SQUATS (4 SETS, 12 REPS) - DUMBELL DEADLIFT (3 SETS, 10 REPS) - MACHINE LEG CURL (3 SETS 15 REPS)"
+        }
+      ],
+      "triceps": [
+        {
+          "id": "01",
+          "name": "BENCH DIPS (4 SETS, 12 REPS) -  SKULL CRUSHERS (3 SETS, 10 REPS) - BAR PUSHDOWN(3 SETS 15 REPS)"
+        }
+      ],
+      "abs": [
+        {
+          "id": "01",
+          "name": "CRUNCHES (4 SETS, 12 REPS) -  SITTING TWISTS (3 SETS, 10 REPS) - COUNT PLANK COUNT(3 SETS 15 REPS)"
+        }
+      ]
     }
   },
 
   "3": {
-    "day1": {
-      "id": "3",
-      "chest": [{ "id": "03", "name": "03" }],
-      "shoulder": [{ "id": "03", "name": "03" }],
-      "biceps": [{ "id": "03", "name": "03" }]
+    "day one": {
+      "chest": [
+        {
+          "id": "1",
+          "name": "DECLINE PRESS (4 SETS, 10 REPS) - WIDE PUSHUPS (4 SETS, 8 REPS) - DUBBBEL PULLOVER (3 SETS 15 REPS)"
+        }
+      ],
+      "shoulder": [
+        {
+          "id": "03",
+          "name": "ARNOLD PRESS (4 SETS, 12 REPS) - FRONT RISE (3 SETS, 10 REPS) - SEATED DUMBELL PRESS(3 SETS 15 REPS)"
+        }
+      ],
+      "biceps": [
+        {
+          "id": "03",
+          "name": "BICEPS CURL (4 SETS, 12 REPS) -  DUMBELL HUMMER (3 SETS, 10 REPS) - CABLE BICEPS CURL(3 SETS 15 REPS)"
+        }
+      ]
     },
 
-    "day2": {
-      "id": "3",
-      "legs": [{ "id": "03", "name": "03" }],
-      "triceps": [{ "id": "03", "name": "03" }],
-      "abs": [{ "id": "03", "name": "03" }]
+    "day two": {
+      "legs": [
+        {
+          "id": "03",
+          "name": "BAREBELL SQUATS (4 SETS, 12 REPS) - ROMANIAN DEADLIFT (3 SETS, 10 REPS) - JUMP SQUATS(3 SETS 15 REPS)"
+        }
+      ],
+      "triceps": [
+        {
+          "id": "03",
+          "name": "BENCH DIPS (4 SETS, 12 REPS) -  SKULL CRUSHERS (3 SETS, 10 REPS) - BAR PUSHDOWN(3 SETS 15 REPS)"
+        }
+      ],
+      "abs": [
+        {
+          "id": "03",
+          "name": "CRUNCHES (4 SETS, 12 REPS) -  SITTING TWISTS (3 SETS, 10 REPS) - COUNT PLANK COUNT(3 SETS 15 REPS)"
+        }
+      ]
     },
-    "day3": {
-      "id": "3",
-      "chest": [{ "id": "04", "name": "04" }],
-      "shoulder": [{ "id": "04", "name": "04" }],
-      "biceps": [{ "id": "04", "name": "04" }]
+    "day three": {
+      "chest": [
+        {
+          "id": "04",
+          "name": "DECLINE PRESS (4 SETS, 10 REPS) - WIDE PUSHUPS (4 SETS, 8 REPS) - DUBBBEL PULLOVER (3 SETS 15 REPS)"
+        }
+      ],
+      "shoulder": [
+        {
+          "id": "04",
+          "name": "LATERAL RAISE (4 SETS, 12 REPS) - SEATED BAREBELL PRESS (4 SETS, 8 REPS) - FONT RISE (3 SETS 15 REPS)"
+        }
+      ],
+      "biceps": [
+        {
+          "id": "04",
+          "name": "BICEPS CURL (4 SETS, 12 REPS) -  DUMBELL HUMMER (3 SETS, 10 REPS) - CABLE BICEPS CURL(3 SETS 15 REPS)"
+        }
+      ]
     }
   }
 }

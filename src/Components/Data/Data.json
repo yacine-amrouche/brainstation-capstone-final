@@ -1,14 +1,14 @@
 [
   {
     "id": "1",
-    "question": "How many time a week you want to workout?",
-    "information": "This Details it will help us to set you workout goals",
+    "question": "How many time a week you want to workout",
+    "information": "This details will help us set your workout goals",
     "answers": ["once", "twice", "three-times"]
   },
   {
     "id": "2",
     "question": "When was last time you have done some exercises?",
-    "information": "This Details it will help us to set you workout goals",
+    "information": "This details will help us set your workout goals",
     "answers": ["one week", "one month", "over three months"]
   },
   {

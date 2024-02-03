@@ -4,30 +4,11 @@ import dumbell from "../../Assests/images/Screen Shot 2024-02-01 at 12.40.48 PM.
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 import "react-horizontal-scrolling-menu/dist/styles.css";
 
-const fetchData = async (url, options) => {
-  const res = await fetch(url, options);
-  const data = await res.json();
-
-  return data;
-};
-
-const bodyPartsOptions = {
-  method: "GET",
-  params: { limit: "20" },
-  headers: {
-    "X-RapidAPI-Key": "07a53eafedmsh3a73a35d496f8d6p12f62fjsn176506fcc3c4",
-    "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
-  },
-};
-
-const exerciseOptions = {
-  method: "GET",
-  params: { limit: "20" },
-  headers: {
-    "X-RapidAPI-Key": "07a53eafedmsh3a73a35d496f8d6p12f62fjsn176506fcc3c4",
-    "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
-  },
-};
+import {
+  bodyPartsOptions,
+  exerciseOptions,
+  fetchData,
+} from "../../Components/utils";
 
 function HorizontallBar({ setExercises }) {
   const [bodyPart, setBodyPart] = useState([]);
