@@ -65,7 +65,7 @@ function WelcomePage() {
         </div>
       ))}
       <button onClick={handelGetHome} className="welcome__bnt">
-        SEARCH EXERCISES DETAILS
+        Search exercise Details
       </button>
     </>
   );
