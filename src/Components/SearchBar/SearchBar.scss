@@ -2,24 +2,24 @@
   background-color: black;
   margin-top: -0.5rem;
   display: flex;
-  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 .search__header {
   color: gray;
   margin: -0.5rem;
-  font-size: 55px;
+  font-size: 40px;
   font-weight: 700;
-  padding-left: 9rem;
   padding-top: 2rem;
   background-color: black;
   padding-bottom: 2rem;
+  text-align: center;
 }
 .search__input {
-  width: 75%;
+  width: 40%;
   border-radius: 15px;
   padding-top: 1rem;
   padding-left: 2rem;
-  margin-left: 1rem;
   border: white 4px solid;
   background-color: black;
   color: white;
@@ -30,12 +30,13 @@
   font-size: 18px;
 }
 .search__btn {
-  width: 18%;
+  width: 10%;
   height: 55px;
   border-radius: 20px;
   margin-left: 0.5rem;
-  background-color: #c9ba1e;
-  color: black;
+  background-color: #e1e424;
+  font-weight: bold;
+  font-style: italic;
   font-size: 20px;
-  font-size: bold;
+  color: white;
 }

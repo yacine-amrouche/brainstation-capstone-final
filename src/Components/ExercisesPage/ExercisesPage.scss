@@ -1,0 +1,67 @@
+.Menu__card {
+  width: 30%;
+  padding-left: 4rem;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  text-decoration: none;
+}
+.name {
+  padding-left: 8rem;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+  color: white;
+  font-style: italic;
+}
+.heading__exercises {
+  margin-left: 2rem;
+  color: white;
+  font-style: italic;
+}
+.heading__info {
+  margin-left: 2rem;
+  color: white;
+  font-style: italic;
+}
+.heading__sub {
+  margin-left: 4rem;
+  color: white;
+  font-style: italic;
+}
+.btnb {
+  font-size: 14px;
+  background-color: #ffa9a9;
+  border-radius: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  margin-left: 0.5rem;
+  border: 2px #ffa9a9 solid;
+  width: 80px;
+}
+
+.btna {
+  font-size: 14px;
+  background-color: #fcc757;
+  border-radius: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  border: 2px #fcc757 solid;
+  width: 80px;
+}
+.menu_img {
+  border-top: 4px solid black;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+.heading__sub li {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  font-style: italic;
+}

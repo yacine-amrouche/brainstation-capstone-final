@@ -1,0 +1,33 @@
+.horizontall {
+  margin-top: -1rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 3rem;
+  height: 220px;
+}
+.muscle__name {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  padding-left: 2.5rem;
+  background-color: black;
+  border: black;
+  border-radius: 20px;
+  width: 80px;
+}
+.dumbell__img {
+  width: 130px;
+}
+.mainbar {
+  display: flex;
+}
+.arrow {
+  background-color: black;
+}
+.muscle__name:hover {
+  background-color: #e1e424;
+  transform: scale(1.5);
+}
