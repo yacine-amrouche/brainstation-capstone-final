@@ -1,36 +1,52 @@
 import "./ProgramPage.scss";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Exercises from "../../Components/Data/Exercises.json";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 
-function WelcomePage() {
-  let { number } = useParams();
+const getProgram = (number) => {
   let program = {};
-
   if (number === "three-times") {
     program = Exercises[3];
-  }
-
-  if (number === "twice") {
+  } else if (number === "twice") {
     program = Exercises[2];
-  }
-
-  if (number === "once") {
+  } else if (number === "once") {
     program = Exercises[1];
   }
 
-  const days = Object.keys(program);
+  if (program) {
+    localStorage.setItem("nbDays", number);
+  }
+
+  return program;
+};
+
+function WelcomePage() {
+  const { number } = useParams();
   const navigate = useNavigate();
+  const program = getProgram(number);
+
+  const days = Object.keys(program);
+
   const handelGetHome = () => {
     navigate("/HomePage");
+  };
+
+  const handelNewProgram = () => {
+    localStorage.removeItem("nbDays");
+    navigate("/");
   };
 
   return (
     <>
       <h1 className="header__program">
-        This Program was created for you, tailord from you answers
+        This Program was created fot you tailord from you answers
       </h1>
+
+      <button onClick={handelNewProgram} className="new__bnt">
+        Create a new program
+      </button>
+
       {days.map((day, i) => (
         <div className="header__div" key={`${i}${day}`}>
           <h2 className="days">{day}</h2>

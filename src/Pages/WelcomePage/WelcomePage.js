@@ -1,13 +1,22 @@
 import "./WelcomePage.scss";
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 function WelcomePage() {
   const navigate = useNavigate();
 
+  useEffect(() => {
+    const savedUserAnswer = localStorage.getItem("nbDays");
+    if (savedUserAnswer) {
+      navigate(`/program/${savedUserAnswer}`);
+    }
+    console.log(savedUserAnswer);
+  }, []);
+
   const handleGettingStarted = () => {
     navigate(`/quiz/1`);
   };
+
   return (
     <>
       <div className="welcome">
