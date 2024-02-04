@@ -29,7 +29,7 @@ function WelcomePage() {
   return (
     <>
       <h1 className="header__program">
-        This Program was created fot you tailord from you answers
+        This Program was created for you, tailord from you answers
       </h1>
       {days.map((day, i) => (
         <div className="header__div" key={`${i}${day}`}>
